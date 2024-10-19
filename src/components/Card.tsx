@@ -12,7 +12,7 @@ export type CardProps = {
 function Card({ title, price, storage, usersAllowed, sendSize, cardType = 'professional' }: CardProps) {
     if (cardType === 'professional') {
         return (
-            <section className="w-[350px] h-[501px] rounded-xl flex items-center justify-center flex-col p-8 bg-gradient-to-tl from-indigo-500 to-indigo-300 text-white font-semibold gap-4">
+            <section className="w-[350px] h-[501px] rounded-xl flex items-center justify-center flex-col p-8 bg-gradient-to-tl from-indigo-500 to-indigo-300 text-white font-semibold gap-4 shadow-md">
                 <h2 className="text-xl tracking-wide">{title}</h2>
                 <p className="text-7xl font-bold tracking-wide flex items-center gap-2 mb-4">
                     <span className="text-5xl mt-1">$</span> {price}
@@ -32,7 +32,7 @@ function Card({ title, price, storage, usersAllowed, sendSize, cardType = 'profe
         );
     } else {
         return (
-            <section className="max-md:w-[350px] max-md:h-[501px] w-[350px] h-[453px] rounded-xl flex items-center justify-center flex-col p-8 bg-white text-gray-900 font-semibold gap-4">
+            <section className="max-md:w-[350px] max-md:h-[501px] w-[350px] h-[453px] rounded-xl flex items-center justify-center flex-col p-8 bg-white text-gray-900 font-semibold gap-4 shadow-md">
                 <h2 className="text-xl tracking-wide">{title}</h2>
                 <p className="text-7xl font-bold tracking-wide flex items-center gap-2 mb-4">
                     <span className="text-5xl mt-1">$</span> {price}

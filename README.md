@@ -2,6 +2,10 @@
 
 This is a pricing component built with React, Tailwind CSS, and TypeScript. It allows users to toggle between annual and monthly pricing using React context for state management.
 
+## Demo
+
+- [View Live Demo](https://cda-react-pricing-component-with-toggle-master.vercel.app/)
+
 ## Features
 
 -   Toggle between annual and monthly pricing

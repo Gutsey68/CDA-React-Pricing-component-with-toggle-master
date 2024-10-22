@@ -8,7 +8,7 @@ function App() {
     return (
         <ValueProvider>
             <main className="bg-slate-100 min-h-screen w-full flex items-center justify-center flex-col relative">
-                <div className="z-10">
+                <div className="z-10 max-sm:mt-8">
                     {' '}
                     <Hero />
                     <CardSection />
